@@ -16,18 +16,26 @@ Chaque ligne représente un contrat avec plusieurs attributs clés :
 - Dates (début, fin)
 - Montant
 
-## ⚙️ Étapes de traitement
+## Structure du projet
+- data/ # Fichiers sources .xlsx utilisés pour l’analyse
+- notebooks/ # Notebooks Jupyter contenant les analyses
+- scr/ # Scripts Python 
+- results/ # Graphiques ou fichiers de sortie
+- README.md # Documentation du projet
+- requirements.txt # Dépendances du projet
 
-1. 📥 Lecture des deux fichiers Excel (avec pandas)
-2. 🔗 Jointure automatique sur l'ID contrat
-3. 🚨 Comparaison des colonnes critiques :
+## Étapes de traitement
+
+1. Lecture des deux fichiers Excel (avec pandas)
+2. Jointure automatique sur l'ID contrat
+3. Comparaison des colonnes critiques :
     - Montant incohérent (> seuil)
     - Date de début/fin divergente
     - Contrat manquant d’un côté
-4. 📊 Génération d’un tableau récapitulatif des écarts
-5. 📤 Export en Excel ou affichage dans une interface Streamlit
+4.  Génération d’un tableau récapitulatif des écarts
+5. Export en Excel ou affichage dans une interface Streamlit
 
-## 🛠️ Stack technique
+## Stack technique
 
 - Python 3.10+
 - Pandas
