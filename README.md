@@ -17,12 +17,12 @@ Chaque ligne représente un contrat avec plusieurs attributs clés :
 - Montant
 
 ## Structure du projet
-├── data/ # Fichiers sources .xlsx utilisés pour l’analyse
-├── notebooks/ # Notebooks Jupyter contenant les analyses
-├── scripts/ # Scripts Python 
-├── results/ # Graphiques ou fichiers de sortie
-├── README.md # Documentation du projet
-└── requirements.txt # Dépendances du projet
+- data/ # Fichiers sources .xlsx utilisés pour l’analyse
+- notebooks/ # Notebooks Jupyter contenant les analyses
+- scripts/ # Scripts Python 
+- results/ # Graphiques ou fichiers de sortie
+- README.md # Documentation du projet
+- requirements.txt # Dépendances du projet
 
 ## Étapes de traitement
 
