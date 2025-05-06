@@ -16,7 +16,15 @@ Chaque ligne représente un contrat avec plusieurs attributs clés :
 - Dates (début, fin)
 - Montant
 
-## ⚙️ Étapes de traitement
+## Structure du projet
+├── data/ # Fichiers sources .xlsx utilisés pour l’analyse
+├── notebooks/ # Notebooks Jupyter contenant les analyses
+├── scripts/ # Scripts Python 
+├── results/ # Graphiques ou fichiers de sortie
+├── README.md # Documentation du projet
+└── requirements.txt # Dépendances du projet
+
+## Étapes de traitement
 
 1. Lecture des deux fichiers Excel (avec pandas)
 2. Jointure automatique sur l'ID contrat
